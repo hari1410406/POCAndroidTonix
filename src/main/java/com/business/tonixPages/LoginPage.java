@@ -8,8 +8,6 @@ public class LoginPage extends BasePage {
     public LoginPage() throws InterruptedException {
         super();
     }
-//This is for Jenkins Execution
-
     /**
      * Perform login into application
      * Entering password stored in testdata.properties - password field and clicking on login button
