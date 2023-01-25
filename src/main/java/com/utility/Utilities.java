@@ -136,7 +136,7 @@ public class Utilities extends ExtentReporter {
 
 	public static JavascriptExecutor js;
 
-	public static PropertyFileReader prop = new PropertyFileReader("./blob/main/properties/testdata.properties");
+	public static PropertyFileReader prop = new PropertyFileReader("https://github.com/hari1410406/POCAndroidTonix/tree/main/properties");
 
 	public void initDriver() {
 		if (getPlatform().equals("Web")) {
