@@ -8,7 +8,7 @@ public class TonixTestFlow_SoloStash_AddStash_BackToStash_LeaveItAsIs_CloseLater
 	
 	public String tonikAccountBalance;
 	public String tonikNewAccountBalance;
-
+//TestFlow
 	@Test(priority = 0)
     public void createStash() throws Exception {
 		//welcomePage.RingPayAppLaunch();
