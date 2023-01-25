@@ -8,8 +8,6 @@ public class Stash_AchievedPage extends BasePage
 	{
         super();
     }
-//hii
-
 	    /**
 	     * Verify congrats goal achieved page is loaded successfully
 	     * Checking if page title as congrats goal achieved is displayed
