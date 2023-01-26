@@ -5,8 +5,10 @@ import com.propertyfilereader.PropertyFileReader;
 import com.utility.Utilities;
 
 import java.io.IOException;
-//
+
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 
 public class BaseTestCase {
@@ -45,7 +47,7 @@ public class BaseTestCase {
     public static PropertyFileReader prop = new PropertyFileReader(".\\properties\\testdata.properties");
 
     Utilities util=new Utilities();
-    @BeforeTest
+    @BeforeClass
     public void Before() throws InterruptedException, IOException {
         Utilities.relaunch = false;
       //  util.clearBackgroundApps();
@@ -81,8 +83,8 @@ public class BaseTestCase {
         stashWootWootPage=new com.business.tonixPages.Stash_WootWootPage();
     }
 
-  /*  @AfterTest
+    @AfterClass
     public void tonixAppQuit() throws Exception{
         basePage.TearDown();
-    }*/
+    }
 }
