@@ -21,7 +21,7 @@
 			<class name="com.tonix.testScripts.TonixTestFlow_SoloStash_AddStash_UpdateStashDetails_CloseStash" />
 			<class name="com.tonix.testScripts.TonixTestFlow_SoloStash_AddStash_Withdraw_CloseStash" />
 			<class name="com.tonix.testScripts.TonixTestFlow_SoloStash_AddStash_SetHigherGoal_CloseTimeDeposit"/>
-			<class name="com.tonik.testScripts.TonixTestFlow_SoloStash_AddStash_BackToStash_LeaveItAsIs_CloseLater"/>
+			<class name="com.tonix.testScripts.TonixTestFlow_SoloStash_AddStash_BackToStash_LeaveItAsIs_CloseLater" />
 				
 		</classes>
 	</test>
